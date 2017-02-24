@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529721A93986D40E9786FCF1 /* libPods-DiscountNow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B1CC0C99AFEDCD38799CDE /* libPods-DiscountNow.a */; };
 		A22925691E14284F00548C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22925681E14284F00548C2A /* AppDelegate.swift */; };
-		A229256B1E14284F00548C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229256A1E14284F00548C2A /* ViewController.swift */; };
+		A229256B1E14284F00548C2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229256A1E14284F00548C2A /* MainViewController.swift */; };
 		A229256E1E14284F00548C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A229256C1E14284F00548C2A /* Main.storyboard */; };
 		A22925701E14284F00548C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A229256F1E14284F00548C2A /* Assets.xcassets */; };
 		A22925731E14284F00548C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22925711E14284F00548C2A /* LaunchScreen.storyboard */; };
+		A22CDA201E14C3DF0037E647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A22CDA1F1E14C3DF0037E647 /* GoogleService-Info.plist */; };
+		A233115B1E1A936E004129F1 /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233115A1E1A936E004129F1 /* Partner.swift */; };
+		A2354C021E21757F00305DD9 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2354C011E21757F00305DD9 /* UserSettingsViewController.swift */; };
+		A2354C041E2197E900305DD9 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2354C031E2197E900305DD9 /* Extentions.swift */; };
+		A2F637C51E166E4500D1C8FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F637C41E166E4500D1C8FA /* LoginViewController.swift */; };
+		A2FEDF011E471C210019A6CF /* StoreProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDF001E471C210019A6CF /* StoreProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B1CC0C99AFEDCD38799CDE /* libPods-DiscountNow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscountNow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22925651E14284F00548C2A /* DiscountNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22925681E14284F00548C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A229256A1E14284F00548C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A229256A1E14284F00548C2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A229256D1E14284F00548C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A229256F1E14284F00548C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22925721E14284F00548C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22925741E14284F00548C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22CDA1F1E14C3DF0037E647 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A233115A1E1A936E004129F1 /* Partner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
+		A2354C011E21757F00305DD9 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
+		A2354C031E2197E900305DD9 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		A2F637C41E166E4500D1C8FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2FEDF001E471C210019A6CF /* StoreProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreProfileViewController.swift; sourceTree = "<group>"; };
+		D6022C1EC2C14DCECA27AA4E /* Pods-DiscountNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiscountNow/Pods-DiscountNow.release.xcconfig"; sourceTree = "<group>"; };
+		D68582A1DBBFFE49F464158B /* Pods-DiscountNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscountNow/Pods-DiscountNow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529721A93986D40E9786FCF1 /* libPods-DiscountNow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				A22925671E14284F00548C2A /* DiscountNow */,
 				A22925661E14284F00548C2A /* Products */,
+				AC1729AFD6332026AB92A0B5 /* Pods */,
+				DE0B6FC740AF40B338D35540 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,45 @@
 		A22925671E14284F00548C2A /* DiscountNow */ = {
 			isa = PBXGroup;
 			children = (
-				A22925681E14284F00548C2A /* AppDelegate.swift */,
-				A229256A1E14284F00548C2A /* ViewController.swift */,
+				A229256A1E14284F00548C2A /* MainViewController.swift */,
+				A2354C011E21757F00305DD9 /* UserSettingsViewController.swift */,
+				A2FEDF001E471C210019A6CF /* StoreProfileViewController.swift */,
+				A2354C031E2197E900305DD9 /* Extentions.swift */,
+				A2F637C41E166E4500D1C8FA /* LoginViewController.swift */,
+				A233115A1E1A936E004129F1 /* Partner.swift */,
+				A22CDA1F1E14C3DF0037E647 /* GoogleService-Info.plist */,
 				A229256C1E14284F00548C2A /* Main.storyboard */,
+				A229257A1E142B8D00548C2A /* supporting files */,
+			);
+			path = DiscountNow;
+			sourceTree = "<group>";
+		};
+		A229257A1E142B8D00548C2A /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A22925681E14284F00548C2A /* AppDelegate.swift */,
 				A229256F1E14284F00548C2A /* Assets.xcassets */,
 				A22925711E14284F00548C2A /* LaunchScreen.storyboard */,
 				A22925741E14284F00548C2A /* Info.plist */,
 			);
-			path = DiscountNow;
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
+		AC1729AFD6332026AB92A0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D68582A1DBBFFE49F464158B /* Pods-DiscountNow.debug.xcconfig */,
+				D6022C1EC2C14DCECA27AA4E /* Pods-DiscountNow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE0B6FC740AF40B338D35540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B1CC0C99AFEDCD38799CDE /* libPods-DiscountNow.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A22925771E14284F00548C2A /* Build configuration list for PBXNativeTarget "DiscountNow" */;
 			buildPhases = (
+				E8624DA3BC1EF87139B05937 /* [CP] Check Pods Manifest.lock */,
 				A22925611E14284F00548C2A /* Sources */,
 				A22925621E14284F00548C2A /* Frameworks */,
 				A22925631E14284F00548C2A /* Resources */,
+				E92DEA0BC3C6BC053D08686A /* [CP] Embed Pods Frameworks */,
+				BFC85C7DA591F66EBA69E77B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +144,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ethan's Badass Penguin";
 				TargetAttributes = {
 					A22925641E14284F00548C2A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E6654C355Q;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -123,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22925731E14284F00548C2A /* LaunchScreen.storyboard in Resources */,
+				A22CDA201E14C3DF0037E647 /* GoogleService-Info.plist in Resources */,
 				A22925701E14284F00548C2A /* Assets.xcassets in Resources */,
 				A229256E1E14284F00548C2A /* Main.storyboard in Resources */,
 			);
@@ -130,12 +186,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFC85C7DA591F66EBA69E77B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiscountNow/Pods-DiscountNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8624DA3BC1EF87139B05937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E92DEA0BC3C6BC053D08686A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiscountNow/Pods-DiscountNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A22925611E14284F00548C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A229256B1E14284F00548C2A /* ViewController.swift in Sources */,
+				A233115B1E1A936E004129F1 /* Partner.swift in Sources */,
+				A2354C021E21757F00305DD9 /* UserSettingsViewController.swift in Sources */,
+				A2354C041E2197E900305DD9 /* Extentions.swift in Sources */,
+				A2FEDF011E471C210019A6CF /* StoreProfileViewController.swift in Sources */,
+				A2F637C51E166E4500D1C8FA /* LoginViewController.swift in Sources */,
+				A229256B1E14284F00548C2A /* MainViewController.swift in Sources */,
 				A22925691E14284F00548C2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,13 +285,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -222,13 +334,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -242,6 +357,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,23 +365,29 @@
 		};
 		A22925781E14284F00548C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68582A1DBBFFE49F464158B /* Pods-DiscountNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DiscountNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = usc.2817794182.DiscountNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A22925791E14284F00548C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6022C1EC2C14DCECA27AA4E /* Pods-DiscountNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DiscountNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = usc.2817794182.DiscountNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +410,7 @@
 				A22925791E14284F00548C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
