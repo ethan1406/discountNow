@@ -118,7 +118,6 @@ class MainViewController: UITableViewController {
         navigationController?.pushViewController(storeProfileController, animated: true)
         
     }
-
     
 
     func checkIfUserIsLoggedin (){
